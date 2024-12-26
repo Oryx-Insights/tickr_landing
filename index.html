@@ -17,8 +17,8 @@
     <div class="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
 
         <!-- Site header -->
-        <header class="absolute top-0 left-0 w-full py-4 px-6 flex items-center bg-transparent z-10">
-            <a href="/" class="flex items-center">
+        <header class="absolute top-0 left-0 w-full px-6 flex items-center bg-transparent z-10">
+              <a href="/" class="flex items-center">
                 <img
                     src="./images/logo_header.png"
                     alt="Logo"
@@ -29,11 +29,9 @@
         <!-- Page content -->
         <main class="grow">
 
-
-
             <!-- Hero -->
             <section style="background: linear-gradient(to bottom, #0B0C15, #151244);" class="relative before:absolute before:inset-0 before:h-80 before:pointer-events-none before:-z-10">
-            <div class="pt-32 pb-8 md:pt-20 md:pb-20 bg-gradient-to-b from-[#0B0C15] to-[#151244]">
+            <div class="pt-10 pb-8 md:pt-10 md:pb-20 bg-gradient-to-b from-[#0B0C15] to-[#151244]">
 
                    <!-- Image -->
                     <div class="max-w-6xl mx-auto px-4 sm:px-6 flex justify-center pb-12 md:pb-20 relative before:absolute before:-top-2 before:w-96 before:h-96 before:bg-zinc-900 before:opacity-[.15] before:rounded-full before:blur-3xl before:-z-10">
@@ -41,7 +39,7 @@
                           <span class="text-[150px] font-bold text-zinc-700 opacity-10 uppercase">Tickr</span>
                       </div>
                         <model-viewer
-                            style="width: 600px; height: 600px;"
+                            style="width: 600px; height: 600px; position: relative; z-index: 20;"
                             src="iphoneHero.glb"
                             ios-src="model.usdz"
                             alt="A 3D model"
