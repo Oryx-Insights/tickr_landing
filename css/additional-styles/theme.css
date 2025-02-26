@@ -44,3 +44,9 @@
     transform: rotate(135deg);
     transition: y 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), width 0.1s ease-out;
 }
+
+.header a img {
+    max-width: 80px; /* Ajuste la taille du logo pour mobile */
+    height: auto;
+    margin: 10px 0; /* Ajoute un espacement pour éviter le chevauchement */
+}
